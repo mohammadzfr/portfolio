@@ -2,15 +2,36 @@
 
 body {
     margin: 0;
+    font-size: 18px;
     font-family: 'Rubik', sans-serif;
     background-color: #202731;
-    overflow: hidden;
+    overflow-x: hidden;
     color: white;
 }
-
 a {
+    color:rgb(96, 225, 96);
+    text-decoration: dotted;
+    font-weight: bold;
+}
+
+.navbar a {
+    opacity: 0;
     color: white;
     text-decoration: none;
+    font-weight: normal;
+}
+
+.brackets {
+    color: #28cc40;
+    font-weight: 400;
+    opacity: 0;
+}
+h1:hover {
+    cursor: pointer;
+}
+h1:hover .brackets {
+    cursor: pointer;
+    animation: appear .3s linear forwards;
 }
 .navbar {
     margin: 25px 10px;
@@ -60,22 +81,13 @@ a {
     margin: 10px;
     /* max-width: 1000px; */
 }
-/* .animation-appear {
+.animation-appear {
     opacity: 0;
     animation: appear 0.5s linear 5s forwards;
-} */
-.about-me, 
-.skills .cards {
-    font-size: 16px;
 }
 .quotes {
     font-weight: bold;
     color: #60e160;
-}
-.skills {
-    display: flex;
-    flex: 1;
-    flex-direction: column;
 }
 .cards {
     display: flex;
@@ -100,11 +112,12 @@ a {
     animation: cardHover .1s linear forwards;
 }
 .card-title, .card-footer {
-    color: rgb(96, 225, 96);
+    color: #60e160;
 }
 .card-icons>* {
     margin: 0px 8px;
 }
+
 @keyframes strokeOffset {
     from {
         stroke-dashoffset: -2269;
