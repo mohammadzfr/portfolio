@@ -113,6 +113,7 @@ h1:hover .brackets {
 }
 .card-title, .card-footer {
     color: #60e160;
+    font-weight:900;
 }
 .card-icons>* {
     margin: 0px 8px;
