@@ -78,7 +78,7 @@ h1:hover .brackets {
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 80px;
+    margin: 80px 60px;
     /* max-width: 1000px; */
 }
 .animation-appear {
@@ -92,7 +92,8 @@ h1:hover .brackets {
 .cards {
     display: flex;
     flex-wrap: wrap;
-    justify-content:space-between;
+    justify-content: center;
+    align-items: center;
 }
 .card {
     display: flex;
