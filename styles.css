@@ -14,12 +14,12 @@ a {
     font-weight: bold;
 }
 
-.navbar a {
+/* .navbar a {
     opacity: 0;
     color: white;
     text-decoration: none;
     font-weight: normal;
-}
+} */
 
 .brackets {
     color: #28cc40;
@@ -33,12 +33,12 @@ h1:hover .brackets {
     cursor: pointer;
     animation: appear .3s linear forwards;
 }
-.navbar {
+/* .navbar {
     margin: 25px 10px;
     font-size: 30px;
     display: flex;
     justify-content: space-between;
-}
+} */
 /* .nav-element:hover {
     cursor: pointer;
 }
@@ -89,6 +89,10 @@ h1:hover .brackets {
     font-weight: bold;
     color: #60e160;
 }
+
+/* .skills p {
+    text-align: left;
+} */
 .cards {
     display: flex;
     flex-wrap: wrap;
@@ -150,13 +154,13 @@ h1:hover .brackets {
         box-shadow: none;
     }
     to {
-        box-shadow: 0px 0px 8px 3px #28cc40;
+        box-shadow: 0px 0px 8px 3px #ffffff;
     }
 }
 
 @keyframes notCardHover {
     from {
-        box-shadow: 0px 0px 8px 3px #28cc40;
+        box-shadow: 0px 0px 8px 3px #ffffff;
     }
     to {
         box-shadow: none;
