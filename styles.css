@@ -5,7 +5,6 @@ body {
     font-size: 18px;
     font-family: 'Rubik', sans-serif;
     background-color: #202731;
-    overflow-x: hidden;
     color: white;
 }
 a {
@@ -140,6 +139,7 @@ h1:hover .brackets {
         transform: translateY(-54%)
         scale(0.1,0.1);
         fill: #202731;
+        
     }
 }
 
