@@ -7,7 +7,7 @@ View it [here](https://mohammadzafar.com/)
 
 - Animated SVG Signature using a mask overlay and CSS
 - Responsive website that works well on all devices
-- Cool github chart (credit goes to [Rushi Shah](https://www.rshah.org/)
+- Cool github chart (credit goes to [Rushi Shah](https://www.rshah.org/))
 
 ## Setup
 
